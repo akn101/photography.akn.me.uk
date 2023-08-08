@@ -28,6 +28,7 @@
   "dependencies": {
     "del": "^4.1.1",
     "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
     "gulp-image-resize": "^0.13.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^5.0.0",
