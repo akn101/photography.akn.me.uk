@@ -39,7 +39,7 @@ layout: default
                     <p>{{ site.footer.bio }}</p>
                     <p>{{ site.footer.github }}</p>
                 </section>
-                <section>
+ <!--               <section>
                     <h2>Sponsor</h2>
                     <div class="ad">
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -53,9 +53,9 @@ layout: default
                             (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
                     </div>
-                </section>
+                </section> -->
                 <section>
-                    <h2>Follow me on ...</h2>
+
                     <ul class="icons">
                         {% if site.social_urls.facebook %}
                             <li>
@@ -102,7 +102,7 @@ layout: default
                     </ul>
                 </section>
                 <p class="copyright">
-                    &copy; {{ site.author }}. Design: {{ site.web_design }}
+                    &copy; {{ site.author }}. Acknowledgements: {{ site.acknowledgements }}
                 </p>
             </div>
             <div>
@@ -119,7 +119,7 @@ layout: default
                             <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
                         </div>
                         <ul class="actions">
-                            <li><input type="submit" value="Send" class="special"/></li>
+                            <li><input type="submit" value="Send" class="special" disabled/></li>
                             <li><input type="reset" value="Reset"/></li>
                         </ul>
                     </form>
