@@ -1,6 +1,6 @@
 # Base configs
-#  baseurl: "https://iris.akn.me.uk"
-baseurl: "" # Comment the above line and uncomment this to test the website locally
+baseurl: "https://iris.akn.me.uk"
+# baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "G-C3FWLKYY60"
@@ -11,7 +11,7 @@ subtitle: "the mundane - from my eye 📸 "
 author: "Ahnaf Kabir"
 header:
  title: "Photography"
- subtitle: "by akn"
+ subtitle: "@ akn"
 footer:
  name: "Welcome to Iris"
  bio: "This new website is much simpler than my old stab at it, putting photos at the very centre. <br/> Commercial work is available on request @ enquiries AT akn DOT me DOT uk"
