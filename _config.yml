@@ -1,6 +1,6 @@
 # Base configs
-baseurl: "https://iris.akn.me.uk"
-# baseurl: "" # Comment the above line and uncomment this to test the website locally
+# baseurl: "https://iris.akn.me.uk"
+baseurl: ""  # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "G-C3FWLKYY60"
@@ -15,7 +15,7 @@ header:
 footer:
  name: "Welcome to Iris"
  bio: "This new website is much simpler than my old stab at it, putting photos at the very centre. <br/> Commercial work is available on request @ enquiries AT akn DOT me DOT uk"
-acknowledgements: "R. Patra, original codebase; https://lsdu.org (Leo S.), particular photos."
+acknowledgements: "Ram P., original codebase; https://lsdu.org (Leo S.), particular photos."
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
 exif: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'

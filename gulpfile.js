@@ -32,7 +32,7 @@ gulp.task('resize', function () {
             width: 512,
             imageMagick: true
         }))
-        .pipe(webp())
+        .pipe(webp({metadata: 'all'}))
         .pipe(gulp.dest('images/thumbs'));
 });
 
