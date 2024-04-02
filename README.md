@@ -1,3 +1,15 @@
+# Usage
+
+Upload new images as JPGs to /images
+Ensure dependencies are installed... such as ImageMagick
+run gulp!
+
+
+
+
+
+
+
 <img src="https://i.imgur.com/ZG4gSnb.jpeg" alt="demo"/>
 
 # Photography ![OpenCollective](https://opencollective.com/photography/tiers/backer/badge.svg?label=backer&color=brightgreen)
